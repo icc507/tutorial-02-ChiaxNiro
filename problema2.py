@@ -19,5 +19,5 @@ Original file is located at
 t = input().split()
 
 t = [int(x) if x.isdigit() else x for x in t]
-
-print(t[::-1])
+tupla = tuple(t)
+print(tupla[::-1])
